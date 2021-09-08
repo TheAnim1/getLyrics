@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Sans+JP&display=swap");
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background-image: linear-gradient(to right, #2457d7, #3b125d);
+}
+header {
+  background: url("images/index.jpg") repeat 0 0;
+}
+.bg-header {
+  background: linear-gradient(to right, #2457d7, #3b125d);
+}
+.logo {
+  line-height: 0.75;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 3px;
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
+  transform: translateY(29px);
+}
+
+.logo_bars {
+  width: 41px;
+  height: 30px;
+  margin-top: 20px;
+}
+.logo_bars > span {
+  width: 6px;
+}
+.logo_bars > span:first-of-type,
+.logo_bars > span:last-of-type {
+  height: 17px;
+  background: #eeff2d;
+}
+.logo_bars > span:nth-child(2),
+.logo_bars > span:nth-child(4) {
+  height: 23px;
+  background: #2ac275;
+}
+.logo_bars > span:nth-child(3) {
+  height: 30px;
+  background: #e830fe;
+}
+.src-btn {
+  background: rgba(255, 255, 255, 0.14);
+}
+.form-control::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.form-control:focus {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.14);
+
+  transition: all 400ms ease;
+}
+
+.play {
+  color: #fff;
+}
+.music {
+  color: #eeff2d;
+  font-size: 4rem;
+}
+
+.table > :not(:last-child) > :last-child > * {
+  border-bottom-color: #eeff2d;
+}
+.th {
+  color: #eeff2d;
+}
